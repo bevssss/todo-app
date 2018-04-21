@@ -1,0 +1,164 @@
+/*font-family: 'Roboto', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html{
+	background: #e29587;
+}
+body{
+
+	font-family: 'Roboto', sans-serif;
+/*	background-image: url('');
+	background-size:cover;
+	background-repeat:  no-repeat;
+	background-position: center 0;*/
+
+}
+.container-fluid{
+	padding:0;
+}
+.head-title{
+	text-align:center;
+	color:#ffffff;
+	font-size: 40px;
+	/*font-weight: 500px;*/
+	height:;
+	margin:;
+	padding:50px 0;
+	/*background: linear-gradient(to left, #ff99ff 0%, #ff9999 100%);*/
+	/* background: linear-gradient(to right, #ddd6f3 0%, #faaca8 100%);*/
+	 background: linear-gradient(to right, #ec6f66 0%, #f3a183 100%);
+	  background: linear-gradient(to right, #f857a6 0%, #ff5858 100%);
+	  background: linear-gradient(to bottom, #ff9966 0%, #ff5e62 100%);
+}
+.head-title h1{
+	
+}
+.input-task{
+	text-align:center;	
+	/*background:#f857a6;
+	background:#D76D77;*/
+	background:#ff5e62;
+	padding-bottom: 10px;
+}
+.input-task button{
+	margin-right: 20px;
+}
+.btn-light:hover{
+	color:#ffffff;
+	background:#f3a183;
+}
+
+.btn-light{
+	color:#f3a183;
+	background:#ffffff;
+}
+.app{
+	width: 100%;
+    float: left;
+}
+
+/*.task-list{
+	width: 100%;
+    min-height: 50px;
+    float: left;
+    font-size: 14px;
+    font-weight: 500;
+    color: #444;
+    line-height: 22px;
+    background: #fff;
+    border-radius: 5px;
+    position: relative;
+     box-shadow: 0px 1px 2px rgba(44, 62, 80, 0.10); 
+    margin:15px 0 0 0;
+    padding: 25px 100px 14px 14px;
+    word-break: break-word;
+    vertical-align: middle;
+}
+*/
+.task-list{
+	width: 100%;
+    float: left;
+    position:relative;
+    min-height: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #444;
+    line-height: 22px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px rgba(44, 62, 80, 0.10);
+    margin: 10px 0 0 0;
+    padding: 14px 100px 14px 14px;
+    word-break: break-word;
+}
+.icon-buttons {
+	width: 100px;
+    height: 50px;
+    position: absolute;
+ /*   top: 3px;*/
+    top:0;
+    right: 0;
+    background: none;
+    border-radius: 50%;
+}
+
+.icon-buttons button{
+	width: 50px;
+    height: 50px;
+    position: relative;
+    float:left;
+    border:0px;
+    cursor:pointer;
+    outline:none;
+    /*right:10px;*/
+
+  
+}
+
+.icon-buttons button i{
+	width: 22px;
+    height: 22px;
+    position: absolute;
+    float:left;
+    top:50%;
+    left:50%;
+    margin: -11px  0 0 -11px;
+  
+}
+
+.add-task{
+	width: 100%;
+    height: 50px;
+    float: left;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    text-indent: 18px;
+    padding: 0 60px 0 0;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px /*25px 25px 5px*/;
+    border: 0px;
+    box-shadow: none;
+    outline: none;
+    -webkit-appearance: none;
+    margin: 10px 0;
+}
+.add{
+	text-align: center;
+}
+.edit-task{
+	width: 100%;
+    height: 50px;
+    float: left;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    text-indent: 18px;
+    padding: 0 60px 0 0;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px /*25px 25px 5px*/;
+    border: 0px;
+    box-shadow: none;
+    outline: none;
+    -webkit-appearance: none;
+    margin: 10px 0;
+}
